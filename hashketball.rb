@@ -257,3 +257,27 @@ end
 
 
 
+
+
+
+
+
+
+#input 0
+#output player name
+def player_number(number)
+  game_hash.each do |team_data, team|
+    
+    if team.is_a?(Hash)
+      team.each do |attributes, team_info|
+        binding.pry   
+      end
+      
+    end
+  end 
+end
+
+player_number(0)
+
+
+
